@@ -10,8 +10,10 @@ import SearchIcon from '@mui/icons-material/Search';
 export const Home = () => (
 	<div className="container-fluid mt-5 h-100">
         <div className="row h-100">
-            <div id="sidebar" className="col-2 d-flex flex-column h-100 border">
-                <dvi>Neo Task</dvi>
+            <div id="sidebar" className="col-2 d-flex flex-column h-100 border justify-content-around">
+                <dvi>
+                    <h4>Neo Task</h4>
+                </dvi>
                 <dvi>Home</dvi>
                 <dvi>Create Task</dvi>
                 <dvi>All Task</dvi>
