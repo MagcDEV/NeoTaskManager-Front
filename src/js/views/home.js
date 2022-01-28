@@ -42,9 +42,9 @@ export const Home = () => (
                     </div>
                 </div>
                 <div className="row justify-content-around h-100">
-                    <div className="col-3 border h-100">col</div>
-                    <div className="col-3 border h-100">col</div>
-                    <div className="col-3 border h-100">col</div>
+                    <div className="col-3 border h-100">To Do</div>
+                    <div className="col-3 border h-100">In progress</div>
+                    <div className="col-3 border h-100">Completed</div>
                 </div>
             </div>
         </div>
