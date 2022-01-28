@@ -6,11 +6,9 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //include bootstrap npm library into the bundle
-import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap/dist/js/bootstrap.esm.js";
-import bootstrap from "bootstrap";
+import "bootstrap/dist/css/bootstrap.css"
+import  popper from "@popperjs/core";
 
-//import your own components
 import Layout from "./layout";
 
 //render your react application
