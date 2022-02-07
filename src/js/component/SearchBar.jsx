@@ -6,7 +6,7 @@ import SearchIcon from '@mui/icons-material/Search';
 
 export const SearchBar = () => {
     return (
-      <div className="col-6">
+      <div>
         <TextField
           InputProps={{
             endAdornment: (
